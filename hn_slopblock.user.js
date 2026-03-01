@@ -31,7 +31,9 @@
     // https://news.ycombinator.com/item?id=47203247
     'Paddyz',
     // https://news.ycombinator.com/item?id=47203423
-    'lynxbot2026'
+    'lynxbot2026',
+    // https://news.ycombinator.com/threads?id=galaxy_tx
+    'galaxy_tx'
   ])
 
   for (const commentElem of document.querySelectorAll('tr.comtr')) {
