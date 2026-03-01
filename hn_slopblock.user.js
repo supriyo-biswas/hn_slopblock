@@ -5,11 +5,17 @@
 // @match        https://news.ycombinator.com/*
 // @grant        none
 // @run-at       document-end
+// @downloadURL  https://github.com/supriyo-biswas/hn_slopblock/raw/refs/heads/master/hn_slopblock.user.js
 // @updateURL    https://github.com/supriyo-biswas/hn_slopblock/raw/refs/heads/master/hn_slopblock.user.js
 // ==/UserScript==
 
 (function () {
   'use strict'
+
+  if (window.location.pathname === '/threads') {
+    // user probably wants to see what they've posted.
+    return
+  }
 
   const blockedUsers = new Set([
     // https://news.ycombinator.com/item?id=47174920
