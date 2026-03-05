@@ -35,7 +35,9 @@
     // https://news.ycombinator.com/threads?id=galaxy_tx
     'galaxy_tx',
     // https://news.ycombinator.com/item?id=47246979
-    'Niko901ch'
+    'Niko901ch',
+    // https://news.ycombinator.com/item?id=47256995
+    'shubhamintech'
   ])
 
   for (const commentElem of document.querySelectorAll('tr.comtr')) {
