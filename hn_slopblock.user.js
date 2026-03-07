@@ -40,6 +40,8 @@
     'shubhamintech',
     // https://news.ycombinator.com/item?id=47284382
     'autojunjie',
+    // https://news.ycombinator.com/item?id=47287726
+    'ollybrinkman',
   ])
 
   for (const commentElem of document.querySelectorAll('tr.comtr')) {
