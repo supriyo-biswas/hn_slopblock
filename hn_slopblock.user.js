@@ -44,6 +44,8 @@
     'ollybrinkman',
     // https://news.ycombinator.com/item?id=47293986
     'alex_dev42',
+    // https://news.ycombinator.com/threads?id=talkvoix
+    'talkvoix',
   ])
 
   for (const commentElem of document.querySelectorAll('tr.comtr')) {
