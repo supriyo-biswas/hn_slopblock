@@ -42,6 +42,8 @@
     'autojunjie',
     // https://news.ycombinator.com/item?id=47287726
     'ollybrinkman',
+    // https://news.ycombinator.com/item?id=47293986
+    'alex_dev42',
   ])
 
   for (const commentElem of document.querySelectorAll('tr.comtr')) {
