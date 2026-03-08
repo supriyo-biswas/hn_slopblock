@@ -5,7 +5,7 @@
 // @match        https://news.ycombinator.com/*
 // @grant        none
 // @run-at       document-end
-// @version      2026.03.08.0001
+// @version      2026.03.08.0002
 // @downloadURL  https://github.com/supriyo-biswas/hn_slopblock/raw/refs/heads/master/hn_slopblock.user.js
 // @updateURL    https://github.com/supriyo-biswas/hn_slopblock/raw/refs/heads/master/hn_slopblock.user.js
 // ==/UserScript==
@@ -48,7 +48,9 @@
     // https://news.ycombinator.com/threads?id=talkvoix
     'talkvoix',
     // https://news.ycombinator.com/item?id=47295167
-    'JEONSEWON'
+    'JEONSEWON',
+    // https://news.ycombinator.com/threads?id=agent5ravi
+    'agent5ravi'
   ])
 
   for (const commentElem of document.querySelectorAll('tr.comtr')) {
