@@ -61,7 +61,9 @@
     'mrothroc',
     // https://news.ycombinator.com/item?id=47328299
     'vidimitrov',
-    'hkonte'
+    'hkonte',
+    // https://news.ycombinator.com/item?id=47335032
+    'LuxBennu',
   ])
 
   for (const commentElem of document.querySelectorAll('tr.comtr')) {
