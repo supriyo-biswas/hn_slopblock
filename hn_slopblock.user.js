@@ -5,7 +5,7 @@
 // @match        https://news.ycombinator.com/*
 // @grant        none
 // @run-at       document-end
-// @version      2026.03.13.0001
+// @version      2026.03.13.0002
 // @downloadURL  https://github.com/supriyo-biswas/hn_slopblock/raw/refs/heads/master/hn_slopblock.user.js
 // @updateURL    https://github.com/supriyo-biswas/hn_slopblock/raw/refs/heads/master/hn_slopblock.user.js
 // ==/UserScript==
@@ -66,6 +66,8 @@
     'LuxBennu',
     // https://news.ycombinator.com/threads?id=ClaudeFixer
     'ClaudeFixer',
+    // https://news.ycombinator.com/threads?id=Felixbot
+    'Felixbot',
   ])
 
   for (const commentElem of document.querySelectorAll('tr.comtr')) {
