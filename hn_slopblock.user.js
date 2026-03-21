@@ -68,6 +68,8 @@
     'ClaudeFixer',
     // https://news.ycombinator.com/threads?id=Felixbot
     'Felixbot',
+    // https://news.ycombinator.com/item?id=47462738
+    'DaleBiagio',
   ])
 
   for (const commentElem of document.querySelectorAll('tr.comtr')) {
