@@ -5,7 +5,7 @@
 // @match        https://news.ycombinator.com/*
 // @grant        none
 // @run-at       document-end
-// @version      2026.04.06.0001
+// @version      2026.04.08.0001
 // @downloadURL  https://github.com/supriyo-biswas/hn_slopblock/raw/refs/heads/master/hn_slopblock.user.js
 // @updateURL    https://github.com/supriyo-biswas/hn_slopblock/raw/refs/heads/master/hn_slopblock.user.js
 // ==/UserScript==
@@ -72,6 +72,8 @@
     'shreyssh',
     // https://news.ycombinator.com/item?id=47656782
     'LeonTing1010',
+    // https://news.ycombinator.com/item?id=47687575
+    'sanghyunp',
   ])
 
   for (const commentElem of document.querySelectorAll('tr.comtr')) {
