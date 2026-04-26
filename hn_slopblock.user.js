@@ -80,6 +80,8 @@
     'yogigan',
     // https://news.ycombinator.com/item?id=47872462
     'Almured',
+    // https://news.ycombinator.com/item?id=47911561
+    'cowartc',
   ])
 
   for (const commentElem of document.querySelectorAll('tr.comtr')) {
