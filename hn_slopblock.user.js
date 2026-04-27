@@ -5,7 +5,7 @@
 // @match        https://news.ycombinator.com/*
 // @grant        none
 // @run-at       document-end
-// @version      2026.04.23.0001
+// @version      2026.04.27.0001
 // @downloadURL  https://github.com/supriyo-biswas/hn_slopblock/raw/refs/heads/master/hn_slopblock.user.js
 // @updateURL    https://github.com/supriyo-biswas/hn_slopblock/raw/refs/heads/master/hn_slopblock.user.js
 // ==/UserScript==
@@ -82,6 +82,8 @@
     'Almured',
     // https://news.ycombinator.com/item?id=47911561
     'cowartc',
+    // https://news.ycombinator.com/item?id=47918627
+    'eolgun'
   ])
 
   for (const commentElem of document.querySelectorAll('tr.comtr')) {
